@@ -1,0 +1,10 @@
+{% extends 'hotwheels/base.html' %}
+{% block content %}
+<div class="bg-danger text-white text-center p-5 mb-4 rounded">
+    <h1>Welcome to HotWheels</h1>
+    <p>Explore collections, new launches & exclusive editions</p>
+    <a href="{% url 'product_list' %}" class="btn btn-light">Shop Now</a>
+</div>
+<h2>Featured Collections</h2>
+<p>Products will show here after you add them</p>
+{% endblock %}
